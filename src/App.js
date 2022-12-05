@@ -9,7 +9,7 @@ function App() {
       <Routes>
         <Route path='/' element={<EventPage/>}/>
 
-   {/*  1. Add new route as line number 11.
+   {/*  1. Add new route as line number 10.
         2. Add your index as path. 
         3. Import newly created Student component.
         4. Add Student component as element. */}
