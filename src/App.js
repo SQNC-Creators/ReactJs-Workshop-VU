@@ -1,15 +1,21 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import EventPage from './Components/Pages/EventPage/EventPage';
-import TempPage from './Components/Pages/TempPage/TempPage';
 
+import EventPage from './Pages/EventPage/EventPage';
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Routes>
-        <Route path='/' element={<EventPage/>} />
-        <Route path='/temp' element={<TempPage/>} />
+        <Route path='/' element={<EventPage/>}/>
+
+   {/*  1. Add new route as line number 11.
+        2. Add your index as path. 
+        3. Import newly created Student component.
+        4. Add Student component as element. */}
+
+        {/* Remove this line and add your code here */}
+
       </Routes>
     </div>
   );
